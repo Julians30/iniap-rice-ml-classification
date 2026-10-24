@@ -31,9 +31,9 @@ Descriptores morfométricos (7): `AREA`, `PERIMETER`, `MAJOR_AXIS`, `MINOR_AXIS`
 
 El conjunto completo **no se distribuye en este repositorio** porque forma parte de una **tesis doctoral en curso**. Según la declaración de disponibilidad de datos del artículo, puede solicitarse al autor de correspondencia.
 
-### Muestra de demostración incluida
+### Muestra sintética de demostración incluida
 
-> **Importante:** `Granos de Arroz.xlsx` **no es el conjunto del artículo**. Es una muestra de demostración de **500 registros**, incluida a pedido de la revisión por pares para que el código pueda ejecutarse de principio a fin. Tiene las mismas 7 variables y la columna `CLASS` con la variedad.
+> **Importante:** `Granos de Arroz.xlsx` **no es el conjunto del artículo**. Es una muestra de **500 registros simulados (datos sintéticos)** que reproduce las características estadísticas del conjunto original. Se incluyó a pedido de la revisión por pares para que el código pueda ejecutarse de principio a fin. Tiene las mismas 7 variables y la columna `CLASS` con la variedad.
 
 | Variedad | Registros en la muestra |
 |---|---:|
