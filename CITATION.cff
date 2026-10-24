@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated article."
+title: "Clasificación de variedades de arroz INIAP con aprendizaje automático"
+type: software
+authors:
+  - family-names: "Coronel-Reyes"
+    given-names: "Julián"
+    orcid: "https://orcid.org/0000-0002-7883-5388"
+  - family-names: "Haro-Sarango"
+    given-names: "Alexander"
+  - family-names: "Delgado-Vera"
+    given-names: "Carlota"
+  - family-names: "Triviño-Sánchez"
+    given-names: "Johnny"
+repository-code: "https://github.com/Julians30/iniap-rice-ml-classification"
+preferred-citation:
+  type: article
+  title: "Comparative Evaluation of Machine Learning Algorithms for the Identification and Morphological Classification of Rice Grains"
+  authors:
+    - family-names: "Coronel-Reyes"
+      given-names: "Julián"
+      orcid: "https://orcid.org/0000-0002-7883-5388"
+    - family-names: "Haro-Sarango"
+      given-names: "Alexander"
+    - family-names: "Delgado-Vera"
+      given-names: "Carlota"
+    - family-names: "Triviño-Sánchez"
+      given-names: "Johnny"
+  journal: "AgriEngineering"
+  year: 2026
+  volume: 8
+  issue: 3
+  start: 100
+  doi: "10.3390/agriengineering8030100"
+  url: "https://www.mdpi.com/2624-7402/8/3/100"
