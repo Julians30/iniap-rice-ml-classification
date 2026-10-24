@@ -29,7 +29,7 @@ El estudio publicado analizó **2.400 granos**, balanceados entre las tres varie
 
 Descriptores morfométricos (7): `AREA`, `PERIMETER`, `MAJOR_AXIS`, `MINOR_AXIS`, `ECCENTRICITY`, `CONVEX_AREA`, `EXTENT`.
 
-El conjunto completo **no se distribuye en este repositorio**. Según la declaración de disponibilidad de datos del artículo, puede solicitarse al autor de correspondencia.
+El conjunto completo **no se distribuye en este repositorio** porque forma parte de una **tesis doctoral en curso**. Según la declaración de disponibilidad de datos del artículo, puede solicitarse al autor de correspondencia.
 
 ### Muestra de demostración incluida
 
