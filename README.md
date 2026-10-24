@@ -6,7 +6,7 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat-square&logo=googlecolab&logoColor=white)
 
-Código y datos del artículo:
+Código del artículo:
 
 **Coronel-Reyes, J.; Haro-Sarango, A.; Delgado-Vera, C.; Triviño-Sánchez, J. (2026). Comparative Evaluation of Machine Learning Algorithms for the Identification and Morphological Classification of Rice Grains. *AgriEngineering*, 8(3), 100.** https://doi.org/10.3390/agriengineering8030100
 
@@ -16,15 +16,33 @@ Clasificación multiclase de granos de arroz de tres variedades certificadas del
 
 ## Datos
 
-`Granos de Arroz.xlsx` contiene 500 granos con 7 descriptores morfométricos y la variedad como etiqueta.
+### Conjunto analizado en el artículo
+
+El estudio publicado analizó **2.400 granos**, balanceados entre las tres variedades:
 
 | Variedad | Granos |
 |---|---:|
-| INIAP-12 | 172 |
-| INIAP-11 | 171 |
-| INIAP-20 | 157 |
+| INIAP-11 | 800 |
+| INIAP-12 | 800 |
+| INIAP-20 | 800 |
+| **Total** | **2.400** |
 
-Descriptores: `AREA`, `PERIMETER`, `MAJOR_AXIS`, `MINOR_AXIS`, `ECCENTRICITY`, `CONVEX_AREA`, `EXTENT`.
+Descriptores morfométricos (7): `AREA`, `PERIMETER`, `MAJOR_AXIS`, `MINOR_AXIS`, `ECCENTRICITY`, `CONVEX_AREA`, `EXTENT`.
+
+El conjunto completo **no se distribuye en este repositorio**. Según la declaración de disponibilidad de datos del artículo, puede solicitarse al autor de correspondencia.
+
+### Muestra de demostración incluida
+
+> **Importante:** `Granos de Arroz.xlsx` **no es el conjunto del artículo**. Es una muestra de demostración de **500 registros**, incluida a pedido de la revisión por pares para que el código pueda ejecutarse de principio a fin. Tiene las mismas 7 variables y la columna `CLASS` con la variedad.
+
+| Variedad | Registros en la muestra |
+|---|---:|
+| INIAP-11 | 171 |
+| INIAP-12 | 172 |
+| INIAP-20 | 157 |
+| **Total** | **500** |
+
+Las métricas que se obtienen al ejecutar `ml_rice.py` con esta muestra **no reproducen las cifras publicadas**, que provienen de los 2.400 granos. La muestra sirve para verificar el flujo de análisis, no los resultados.
 
 ## Qué hace el script
 
@@ -53,7 +71,7 @@ Julián Coronel-Reyes, Alexander Haro-Sarango, Carlota Delgado-Vera y Johnny Tri
 
 ## Cómo citar
 
-Si utilizas este código o estos datos, cita el artículo:
+Si utilizas este código, cita el artículo:
 
 ```bibtex
 @article{CoronelReyes2026Rice,

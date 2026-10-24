@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this code or data, please cite the associated article."
+message: "If you use this code, please cite the associated article."
 title: "Clasificación de variedades de arroz INIAP con aprendizaje automático"
 type: software
 authors:
